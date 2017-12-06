@@ -160,3 +160,58 @@ footer img {
   }
 
 }
+
+@media only screen and (max-width: 633px){
+  nav span, .menu {
+    display: none;
+  }
+  .truncated-menu {
+    display: inline;
+  }
+  header {
+    height: 17rem;
+    position: 20%;
+  }
+
+  .banner {
+    width: 100%;
+    margin-top: 9rem;
+    padding: 1rem 0;
+    text-align: center;
+    margin-right: 0;
+
+  }
+
+  .icons {
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+.business-info  {
+  flex-direction: column;
+
+}
+
+.business-info div, .business-info span {
+  width: 100%;
+
+}
+
+.business-info div {
+  margin: 0 0 4rem 0;
+}
+.business-info p {
+  margin-top: 1rem;
+  font-size: .77rem;
+}
+
+.copyright{
+  justify-content: center;
+}
+.copyright span {
+  display: none;
+}
+}

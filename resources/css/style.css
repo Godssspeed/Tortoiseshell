@@ -1,0 +1,162 @@
+body {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+
+}
+
+header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+
+
+}
+
+nav {
+  display: flex;
+  background-color: cadetblue;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  color: white;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+
+nav img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left:2rem;
+}
+
+ul {
+  margin-right: 1rem;
+}
+ul li {
+  display: inline;
+  padding-right: 2rem;
+
+}
+
+.truncated-menu {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.banner {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  line-height: 1.2rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+
+
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.icon img {
+  width: 5rem;
+}
+
+.icon.paper {
+  width:3.5rem;
+}
+
+.business-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+
+.business-info div {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: 5%;
+}
+
+.business-info span{
+  background-color: cadetblue;
+  width: 10rem;
+  padding: .5rem 1.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  margin-top: 5rem;
+  font-size: 1rem;
+}
+
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+
+@media only screen and (max-width: 1024px){
+
+  header {
+    width: 100%;
+    padding-top: 0;
+    height: 22rem;
+  }
+
+  .banner {
+    margin-top: 5rem;
+    padding: .75rem 4rem;
+    margin-left: -4rem;
+  }
+
+  h1 {
+    font-size: 1.33rem;
+  }
+
+}
